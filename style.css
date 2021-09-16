@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
 img {
-    width: 48px;
-    height: 50px;
-    border: 1px pink dashed 52px;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    border: 2px black 52px;
     
 }
 
@@ -11,7 +12,7 @@ img {
     width: 50px;
     height: 50px;
     font-size: 48px;
-    border: 1px pink dashed;
+    border: 1px black dashed;
     border-right: none;
     border-top: 52px;
     display: flex;
@@ -21,9 +22,10 @@ img {
 .numbers {
     width: 408px;
     height: 408px;
-    border: pink 8px solid;
+    border: gray 8px ridge;
     display: flex;
     flex-wrap: wrap;
+    background-color: #CBCBCB;
 }
 
 body {
@@ -34,4 +36,28 @@ body {
 
 section {
     margin: auto;
+}
+
+.one {
+    color: blue;
+    border-lef: none;
+}
+
+.two {
+    color: green;
+}
+
+.three {
+    color: red;
+}
+
+.full {
+    
+    border-width: 4px;
+    border-style: ridge;
+    display: flex;
+    flex-wrap: wrap;
+    width: 43px;
+    height: 43px;
+    background-color: #CBCBCB;
 }
