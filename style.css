@@ -1,8 +1,37 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
-</style>
 
 img {
-    width: 10px;
-    height: 10px;
+    width: 48px;
+    height: 50px;
+    border: 1px pink dashed 52px;
+    
+}
+
+.numbers-content {
+    width: 50px;
+    height: 50px;
+    font-size: 48px;
+    border: 1px pink dashed;
+    border-right: none;
+    border-top: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+.numbers {
+    width: 408px;
+    height: 408px;
+    border: pink 8px solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+section {
+    margin: auto;
 }
